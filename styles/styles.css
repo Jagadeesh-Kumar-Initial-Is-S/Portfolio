@@ -22,7 +22,7 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
+  --color-primary: lightgrey;
   --color-secondary: red;
   --color-white: #454e56;
   --color-black: #000;
