@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Callbacks</title>
+    <link rel="stylesheet" href="blogs.css">
+</head>
+<body>
+    <section class="container" id="blogs-001">
+        <h5>Submitted and coded by Jagadeesh Kumar . S, you may send mail to my email address which is jagadeesh_2k17@proton.me, you may contribute some money to my Indian Unified Payment Interface (UPI) which is jagadeesh-kumar@ybl .</h5>
+        <br/>
+        <br/>
+            <h4>Created On : 2023, 16 January, Monday.<br/></h4><hr/><br/><br/>
+            <h4>Updated On : 2023, 18 January, Wednesday.<br/></h4><hr/><br/><br/>
+        Callbacks are a great way to handle something after something else has been completed. By something here we mean a function execution. If we want to execute a function right after the return of some other function, then callbacks can be used.<br/>
+        <br/>
+JavaScript functions have the type of Objects. So, much like any other objects (String, Arrays etc.), They can be passed as an argument to any other function while calling.<br/>
+JavaScript code to show the working of callback:<br/>
+<br/>
+Code #1:<br/>
+<br/>
+  <br/>
+   // add() function is called with arguments a, b<br/>
+   // and callback, callback will be executed just <br/>
+   // after ending of add() function<br/>
+   function add(a, b , callback){<br/>
+   document.write(`The sum of ${a} and ${b} is ${a+b}.`);<br/>
+   callback();<br/>
+   }<br/>
+     <br/>
+   // disp() function is called just<br/>
+   // after the ending of add() function <br/>
+   function disp(){
+   document.write('This must be printed after addition');<br/>
+   }<br/>
+     <br/>
+   // Calling add() function<br/>
+   add(5,6,disp);    <br/>
+     
+<br/>
+Output:<br/>
+<br/>
+The sum of 5 and 6 is 11.This must be printed after addition<br/>
+<br/>
+Explanation:<br/>
+Here are the two functions – add(a, b, callback) and disp(). Here add() is called with the disp() function i.e. passed in as the third argument to the add function along with two numbers.<br/>
+<br/>
+As a result, the add() is invoked with 1, 2 and the disp() which is the callback. The add() prints the addition of the two numbers and as soon as that is done, the callback function is fired! Consequently, we see whatever is inside the disp() as the output below the addition output.<br/>
+<br/>
+Code #2:<br/>
+An alternate way to implement above code is shown below with anonymous functions being passed.<br/>
+<br/>
+  <br/>
+   // add() function is called with arguments a, b<br/>
+   // and callback, callback will be executed just <br/>
+   // after ending of add() function<br/>
+   function add(a, b , callback){<br/>
+   document.write(`The sum of ${a} and ${b} is ${a+b}.`);<br/>
+   callback();<br/>
+   }<br/>
+   <br/>
+   // add() function is called with arguments given below<br/>
+   add(5,6,function disp(){<br/>
+   document.write('This must be printed after addition.');<br/>
+   });<br/>
+     <br/>
+<br/>
+Output:<br/>
+<br/>
+The sum of 5 and 6 is 11.This must be printed after addition.<br/>
+<br/>
+Callbacks are primarily used while handling asynchronous operations like – making an API request to the Google Maps, fetching/writing some data from/into a file, registering event listeners and related stuff. All the operations mentioned uses callbacks. This way once the data/error from the asynchronous operation is returned, the callbacks are used to do something with that inside our code.<br/>
+<br/>
+<hr/>
+
+        <h5>Submitted and coded by Jagadeesh Kumar . S, you may send mail to my email address which is jagadeesh_2k17@proton.me, you may contribute some money to my Indian Unified Payment Interface (UPI) which is jagadeesh-kumar@ybl .</h5>
+    </section>
+</body>
+</html>
