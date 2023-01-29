@@ -11,3 +11,15 @@ Submitted and coded by Jagadeesh Kumar . S, you may send mail to my email addres
 https://jagadeesh-kumar-with-initial-as-s.netlify.app/
 
 <hr/>
+
+# Screenshots
+
+## Screenshot 001
+
+![image](https://user-images.githubusercontent.com/115778774/215330702-9152e2c8-43e8-4f95-abfd-159fc1d02895.png)
+
+## Screenshot 002
+
+![image](https://user-images.githubusercontent.com/115778774/215330738-059cbe28-8170-423e-85de-3b1588d0a6c7.png)
+
+<hr/>
