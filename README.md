@@ -20,6 +20,6 @@ https://jagadeesh-kumar-with-initial-as-s.netlify.app/
 
 ## Screenshot 002
 
-![image](https://user-images.githubusercontent.com/115778774/215330738-059cbe28-8170-423e-85de-3b1588d0a6c7.png)
+![image](https://user-images.githubusercontent.com/115778774/215330797-844395e2-d91c-4915-90f9-c21d7e6b8cb8.png)
 
 <hr/>
