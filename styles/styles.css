@@ -37,7 +37,8 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Carattere', cursive;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -126,7 +127,7 @@ section {
 
 .theme-btn {
   top: 5%;
-  right: 3%;
+  left: 3%;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -695,16 +696,22 @@ section {
 }
 
 
-h6{
+h336{
+  text-align: center;
+  font-size: xx-small;
+  color: var(--color-secondary);
+}
+
+h36{
   text-align: center;
   font-size: xx-small;
 }
 
-h5{
-  font-size:x-small;
+h35{
+  font-size:xx-small;
 }
 
-h4{
+h34{
   font-size:medium;
 }
 
