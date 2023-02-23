@@ -683,26 +683,63 @@
                     </div>
                     
                     <div class="right-contact">
-                        <form target="#" action="https://formsubmit.co/jagadeesh_2k17@proton.me"  method="POST" class="contact-form">
+                        <form action="#" class="contact-form">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_autoresponse" value="Thank you, I may replay soon.">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input id="name" type="text" required placeholder="YOUR NAME">
+                                <input id="email" type="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
+                                <input id="subject" type="text" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea id="message" name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
-                            <div class="submit-btn">
+                            <div class="submit-btn" onclick="sendMail()">
                                 <a href="#" class="main-btn" data-id="contact">
                                     <span class="btn-text">Submit</span>
                                     <span class="btn-icon"><i class="bi bi-send"></i></i></span>
                                 </a>
                             </div>
                         </form>
-                        
 
+
+                        <!-- <form target="#" action="https://formsubmit.co/jagadeesh_2k17@proton.me" method="POST" class="contact-form">
+                            <div class="form-group ">
+                              <div class="form-row input-control i-c-2"> -->
+                                <!-- <div class="col"> -->
+                                  <!-- <input type="text" name="name" class="form-control" placeholder="Full Name" required> -->
+                                <!-- </div> -->
+                                
+                                <!-- <div class="col"> -->
+                                  <!-- <input type="email" name="email" class="form-control" placeholder="Email Address" required> -->
+                                <!-- </div> -->
+                              <!-- </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <div class="form-row input-control"> -->
+                                  <!-- <div class="col"> -->
+                                    <!-- <input type="text" name="name" class="form-control" placeholder="ENTER SUBJECT" required> -->
+                                  <!-- </div> -->
+                                <!-- </div>
+                            </div>
+                              
+
+
+                            <div class="form-group input-control">
+                              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                            </div>
+                            
+                            <div class="submit-btn" type="submit">
+                                <a href="#" class="main-btn" data-id="contact">
+                                    <span class="btn-text">Submit</span>
+                                    <span class="btn-icon"><i class="bi bi-send"></i></i></span>
+                                </a>
+                            </div>
+                          </form>-->
+                         
                         
 
 
@@ -920,6 +957,43 @@ var options = {
 // }
 }
 
+    </script>
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("-fF-_T-Yubqvo6Df3");
+   })();
+</script>
+
+    <script>
+        function sendMail() {
+  var params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+    subject: document.getElementById("subject").value
+  };
+
+  const serviceID = "service_0u4fvri";
+  const templateID = "template_2e11rcg";
+
+    emailjs.send(serviceID, templateID, params)
+    .then(res=>{
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+        document.getElementById("subject").value = "";
+        // console.log(res);
+        alert("Your message sent successfully!!")
+
+    })
+    .catch(err=>console.log(err));
+
+}
     </script>
 
 </body>
