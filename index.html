@@ -978,7 +978,15 @@ var options = {
 
   const serviceID = "service_0u4fvri";
   const templateID = "template_2e11rcg";
-
+   if(document.getElementById("name").value == ""||
+        document.getElementById("email").value == ""||
+        document.getElementById("message").value == ""||
+        document.getElementById("subject").value == "")
+    {
+        alert("Enter all the fields")
+    }
+        
+        else {
     emailjs.send(serviceID, templateID, params)
     .then(res=>{
         document.getElementById("name").value = "";
@@ -990,7 +998,7 @@ var options = {
 
     })
     .catch(err=>console.log(err));
-
+}
 }
     </script>
 
