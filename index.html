@@ -789,7 +789,7 @@
                                 <input id="email" type="email" required placeholder="ENTER YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input id="mobilenumber" type="string" required placeholder="ENTER YOUR MOBILE NUMBER">
+                                <input id="mobile's-number" type="text" required placeholder="ENTER YOUR MOBILE'S NUMBER">
                             </div>
                             <div class="input-control">
                                 <input id="subject" type="text" required placeholder="ENTER SUBJECT">
@@ -1031,7 +1031,7 @@ var options = {
     email: document.getElementById("email").value,
     message: document.getElementById("message").value,
     subject: document.getElementById("subject").value,
-    mobilenumber: document.getElementById("mobilenumber").value,
+    mnumber: document.getElementById("mobile's-number").value,
     to_name: "Jagadeesh Kumar . S ."
   };
 
@@ -1040,7 +1040,7 @@ var options = {
    if(document.getElementById("name").value == ""||
         document.getElementById("email").value == ""||
         document.getElementById("message").value == ""||
-        document.getElementById("mobilenumber").value == ""||
+        document.getElementById("mobile's-number").value == ""||
         document.getElementById("subject").value == "")
     {
         alert("Enter all the fields.")
@@ -1052,7 +1052,7 @@ var options = {
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("message").value = "";
-        document.getElementById("mobilenumber").value == "";
+        document.getElementById("mobile's-number").value = "";
         document.getElementById("subject").value = "";
         // console.log(res);
         alert("Your message sent successfully!!")
