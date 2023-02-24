@@ -2,3 +2,18 @@
     background-color: grey;
     color: white;
 }
+body {
+    /* background-color: var(--color-primary); */
+    /* font-family: "Poppins", sans-serif; */
+    font-family: 'Zen Dots', cursive;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+
+h35{
+    /* text-align: center; */
+    font-size: xx-small;
+    
+    font-family: "Poppins", sans-serif;
+  }
