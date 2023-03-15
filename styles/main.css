@@ -1,0 +1,18 @@
+/* html {overflow:hidden} */
+body{margin:0;padding:0}
+#bg{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#main_area {
+    position:relative;
+    height:100%;
+}
+.transp {
+    filter:alpha(opacity=20);
+    opacity:0.2;
+    left:-1000px;
+    position:absolute;
+}
