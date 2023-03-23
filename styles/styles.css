@@ -52,28 +52,34 @@ a {
   font-family: inherit;
 }
 
-header {
+header, section, .container {
+  min-height: 100vh;
+  color: var(--color-white);
+  padding: 7% !important;
+}
+
+/* header {
   min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
   padding: 0 !important;
-}
+} */
 
-section {
+/* section {
   min-height: 100vh;
   width: 100%;
   position: absolute;
   left: 0;
   top: 0;
   padding: 3rem 18rem;
-}
+} */
 
-.container {
+/* .container {
   display: none;
   transform: translateY(-100%) scale(0);
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
-}
+} */
 
 .active {
   display: block;
@@ -93,7 +99,7 @@ section {
   position: fixed;
   z-index: 10;
   top: 50%;
-  right: 3%;
+  right: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,7 +134,7 @@ section {
 
 .theme-btn {
   top: 5%;
-  left: 3%;
+  left: 1%;
   width: 70px;
   height: 70px;
   border-radius: 50%;
