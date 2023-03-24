@@ -1049,28 +1049,39 @@
                 <h2>Donate to <span>support me</span><span class="bg-text">Contribute</span></h2>
             </div>
             <br/>
-            <form action="#" class="contact-form">
-                <div class="input-control">
-                  <label for="formGroupExampleInput1">Enter the type of currency in short form</label>
-                  <br/>
-                  <input type="text" class="form-control-1" id="formGroupExampleInput1" required placeholder="Enter INR or GBP or USD and so on." style="min-width:210px" />
-                  <br/>
-                  <br/>
+            <div class="contact-content-con">
+                
+                <div class="right-contact">
+                    <form action="#" class="contact-form">
+                        <div class="input-control">
+                            <label for="formGroupExampleInput1">Enter the type of currency in short form</label>
+                            <br/>
+                                <br/>
+                                <input type="text" class="form-control-1" id="formGroupExampleInput1" required placeholder="Enter INR or GBP or USD and so on." style="min-width:210px" />                            
+                        </div>
+                                
+                        <div class="input-control">
+                            <div class="">
+                                <label for="formGroupExampleInput2">Enter the amount of money</label>
+                                <br/>
+                                <br/>
+                                <input type="text" class="form-control-2" id="formGroupExampleInput2" required placeholder="Example: 100000" />
+                              </div>
+                        </div>
+                        <br/>
+                        <div class="btn-con"  id="rzp-button1" onclick="donate()">
+                            <a href="#donate" class="main-btn" data-id="donate">
+                                <span class="btn-text">Donate or Contribute</span>
+                                <span class="btn-icon"><i class="bi bi-credit-card"></i></span>
+                            </a>
+                        </div>
+                    </form>
+                    
                 </div>
-                <div class="input-control">
-                  <label for="formGroupExampleInput2">Enter the amount of money</label>
-                  <br/>
-                  <input type="text" class="form-control-2" id="formGroupExampleInput2" required placeholder="Example: 100000" />
-                </div>
-                <br/>
-                <div class="btn-con"  id="rzp-button1" onclick="donate()">
-                    <a href="#donate" class="main-btn" data-id="donate">
-                        <span class="btn-text">Donate or Contribute</span>
-                        <span class="btn-icon"><i class="bi bi-credit-card"></i></span>
-                    </a>
-                </div>
-            </form>
-            <br/>
+            </div>
+        </div>
+
+           
               <hr/>
               <h336><center>Submitted and coded by Jagadeesh Kumar . S, you may send mail to my email address which is jagadeesh_2k17@proton.me, you may contribute some money to my Indian Unified Payment Interface (UPI) which is jagadeesh-kumar@ybl .</center></h336>
               <hr/>
@@ -1297,6 +1308,7 @@
 
 <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script> -->
 
+<!-- Model -->
 <script src=
 "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity=
