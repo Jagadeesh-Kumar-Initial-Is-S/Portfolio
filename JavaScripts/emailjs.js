@@ -1,9 +1,10 @@
 
-(function(){
-    emailjs.init("-fF-_T-Yubqvo6Df3");
- })();
+
 
  function sendMail() {
+    (function(){   
+        emailjs.init("-fF-_T-Yubqvo6Df3");
+     })();
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
