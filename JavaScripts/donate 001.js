@@ -1,5 +1,5 @@
 function donate(){
-    var in1 =document.getElementById("formGroupExampleInput").value;
+    var in1 =document.getElementById("formGroupExampleInput1").value;
     
     var money = document.getElementById("formGroupExampleInput2").value;
     
