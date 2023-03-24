@@ -771,6 +771,7 @@ h34{
     transform: translateX(-50%);
     width: 100%;
     /* background-color: var(--color-grey-5); */
+    background-color: transparent;
   }
   .controls .control {
     margin: 1rem 0.3rem;
