@@ -1,5 +1,7 @@
 function donate(){
     var in1 =document.getElementById("formGroupExampleInput1").value;
+
+    in1 = in1.toUpperCase();
     
     var money = document.getElementById("formGroupExampleInput2").value;
     
