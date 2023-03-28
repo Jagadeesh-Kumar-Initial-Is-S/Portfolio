@@ -58,6 +58,15 @@ header, section, .container {
   padding: 7% !important;
 }
 
+article img[data-src] {
+  filter: blur(0.2em);
+}
+
+article img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
 /* header {
   min-height: 100vh;
   color: var(--color-white);
