@@ -741,8 +741,8 @@ h34{
   }
 
   .theme-btn {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   .header-content {
@@ -783,7 +783,7 @@ h34{
     background-color: transparent;
   }
   .ctrl {
-    bottom:88%;
+    bottom:84%;
   }
   .controls .control {
     margin: 1rem 0.3rem;
