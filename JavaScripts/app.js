@@ -42,6 +42,6 @@ setTimeout(function () {
 
 setTimeout(function () {
     document.getElementById("theme").click();
-}, 1.5 * 1000);
+}, 1.0 * 1000);
 
 // console.log(hours);
