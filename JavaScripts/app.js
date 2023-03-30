@@ -16,8 +16,8 @@
 })();
 
 
-document.querySelector(".theme-btn").addEventListener("click", () => {
-        
+document.querySelector(".theme-btn").addEventListener("click", (e) => {
+        e.preventDefault();
     document.body.classList.toggle("light-mode");
     
     
