@@ -38,10 +38,10 @@ if(hours<19 && hours>6){
 
 setTimeout(function () {
     document.getElementById("theme").click();
-}, 2.5 * 1000);
+}, 0.5 * 1000);
 
 setTimeout(function () {
     document.getElementById("theme").click();
-}, 4.5 * 1000);
+}, 1.5 * 1000);
 
 // console.log(hours);
