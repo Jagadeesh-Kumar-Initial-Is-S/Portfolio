@@ -32,7 +32,7 @@ let hours = currentDate.getHours();
 // let time = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
 // console.log(time, hours);
 
-if(hours<19 && hours>6){
+if(hours<18 && hours>6){
     document.getElementById("theme").click();
 }
 
