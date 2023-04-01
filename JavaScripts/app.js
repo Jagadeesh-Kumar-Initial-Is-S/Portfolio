@@ -34,6 +34,9 @@ let hours = currentDate.getHours();
 
 if(hours<18 && hours>6){
     document.getElementById("theme").click();
+    setTimeout(function () {
+    modal.style.backgroundColor = "rgb(255,255,255,0.7)";
+}, 0.0 * 1000);
 }
 
 setTimeout(function () {

@@ -20,6 +20,8 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.7);
+    /* background-color: var(--color-primary); */
   }
   
   /* Modal Content (Image) */
@@ -37,9 +39,10 @@
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    /* color: #ccc; */
     padding: 10px 0;
     height: 150px;
+    color: var(--color-secondary);
   }
   
   /* Add Animation - Zoom in the Modal */
@@ -58,15 +61,17 @@
     position: sticky;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    color: var(--color-secondary);
   }
   
   .close:hover,
   .close:focus {
-    color: #bbb;
+    /* color: #bbb; */
+    color: #f1f1f1;
     text-decoration: none;
     cursor: pointer;
   }
