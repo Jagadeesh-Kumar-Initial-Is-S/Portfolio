@@ -48,3 +48,48 @@ setTimeout(function () {
 }, 1.0 * 1000);
 
 // console.log(hours);
+
+function myFunction001(e) {
+    e.preventDefault();
+    document.querySelector(".active-btn").classList.remove("active-btn");
+    var node = document.querySelector('[title="Home"]');
+    node.classList.add("active-btn");
+}
+
+function myFunction002(e) {
+                e.preventDefault();
+                document.querySelector(".active-btn").classList.remove("active-btn");
+                var node = document.querySelector('[title="About"]');
+                node.classList.add("active-btn");
+  }
+
+  function myFunction003(e) {
+    e.preventDefault();
+    document.querySelector(".active-btn").classList.remove("active-btn");
+    var node = document.querySelector('[title="Portfolio"]');
+    node.classList.add("active-btn");
+}
+function myFunction004(e) {
+    e.preventDefault();
+    document.querySelector(".active-btn").classList.remove("active-btn");
+    var node = document.querySelector('[title="Certificates"]');
+    node.classList.add("active-btn");
+}
+function myFunction005(e) {
+    e.preventDefault();
+    document.querySelector(".active-btn").classList.remove("active-btn");
+    var node = document.querySelector('[title="Blogs"]');
+    node.classList.add("active-btn");
+}
+function myFunction006(e) {
+    e.preventDefault();
+    document.querySelector(".active-btn").classList.remove("active-btn");
+    var node = document.querySelector('[title="Donate"]');
+    node.classList.add("active-btn");
+}
+function myFunction007(e) {
+    e.preventDefault();
+    document.querySelector(".active-btn").classList.remove("active-btn");
+    var node = document.querySelector('[title="Contact"]');
+    node.classList.add("active-btn");
+}
