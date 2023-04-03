@@ -743,7 +743,7 @@ h34{
   .theme-btn {
     width: 50px;
     height: 50px;
-    top: 18%;
+    top: 20%;
   }
 
   .header-content {
@@ -774,7 +774,7 @@ h34{
 
   .controls {
     top: auto;
-    bottom: 11%;
+    bottom: 0%;
     flex-direction: row;
     justify-content: center;
     left: 50%;
@@ -784,7 +784,9 @@ h34{
     background-color: transparent;
   }
   .ctrl {
-    bottom:0%;
+    position: sticky;
+    bottom:87%;
+    justify-content: right;
   }
   .controls .control {
     margin: 1rem 0.3rem;
