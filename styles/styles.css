@@ -774,7 +774,7 @@ h34{
 
   .controls {
     top: auto;
-    bottom: 0;
+    bottom: 11%;
     flex-direction: row;
     justify-content: center;
     left: 50%;
@@ -784,7 +784,7 @@ h34{
     background-color: transparent;
   }
   .ctrl {
-    bottom:84%;
+    bottom:0%;
   }
   .controls .control {
     margin: 1rem 0.3rem;
