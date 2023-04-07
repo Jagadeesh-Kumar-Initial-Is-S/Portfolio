@@ -910,6 +910,17 @@ h34{
   .main-title h2 .bg-text {
     font-size: 2.3rem;
   }
+  #port-folio {
+    visibility: hidden;
+    /* position: relative; */
+}
+#port-folio {
+    visibility: visible;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    content: "Port-folio";
+}
 }
 @media screen and (max-width: 1432px) {
   .container {
