@@ -43,8 +43,7 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -58,6 +57,9 @@ header, section, .container {
   min-height: 100vh;
   color: var(--color-white);
   padding: 7% !important;
+  
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 article img[data-src] {
@@ -1000,6 +1002,15 @@ h34{
   right: 90%;
   content: "Cont- -act";
 }
+}
+@media screen and (max-width: 667px) {
+  body {
+      overflow-x: hidden !important;
+  }
+  .container {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+  }
 }
 @media screen and (max-width: 1432px) {
   .container {
