@@ -1000,10 +1000,6 @@ h34{
   right: 90%;
   content: "Cont- -act";
 }
-body{
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
 }
 @media screen and (max-width: 1432px) {
   .container {
