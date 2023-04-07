@@ -43,6 +43,8 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
+  
+  overflow-x: hidden;
 }
 
 a {
@@ -912,14 +914,91 @@ h34{
   }
   #port-folio {
     visibility: hidden;
-    /* position: relative; */
+    position: relative;
 }
-#port-folio {
+#port-folio:after {
     visibility: visible;
-    /* position: absolute; */
-    /* top: 0;
-    left: 0; */
-    content: "Port-folio";
+    position: absolute;
+    top: 0%;
+    left: -12%;
+    content: "Port- -folio";
+}
+#MyWork {
+  visibility: hidden;
+  position: relative;
+}
+#MyWork:after {
+  visibility: visible;
+  position: absolute;
+  top: -60%;
+  right: 300%;
+  content: "My Work";
+}
+#Certif--icates {
+  visibility: hidden;
+  position: relative;
+}
+#Certif--icates:after{
+  visibility: visible;
+  position: absolute;
+  top: 0%;
+  left: -12%;
+  content: "Certifi- -cates";
+}
+#MyCertif--icates {
+  visibility: hidden;
+  position: relative;
+}
+#MyCertif--icates:after{
+  visibility: visible;
+  position: absolute;
+  top: -90%;
+  right: 320%;
+  content: "My Certifi- -cates";
+}
+#Contr--ibute {
+  visibility: hidden;
+  position: relative;
+}
+#Contr--ibute:after{
+  visibility: visible;
+  position: absolute;
+  top: -250%;
+  right: 80%;
+  content: "Contri- -bute";
+}
+#supportme {
+  visibility: hidden;
+  position: relative;
+}
+#supportme:after{
+  visibility: visible;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: "support me";
+}
+#Me001 {
+  visibility: hidden;
+  position: relative;
+}
+#Me001:after{
+  visibility: visible;
+  position: absolute;
+  top: 0%;
+  left: 150%;
+  content: "Me";
+}
+#Con--tact {
+  visibility: hidden;
+  position: relative;
+}
+#Con--tact:after{
+  visibility: visible;
+  position: absolute;
+  top: -100%;
+  right: 90%;
+  content: "Cont- -act";
 }
 }
 @media screen and (max-width: 1432px) {
