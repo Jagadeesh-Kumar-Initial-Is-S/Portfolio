@@ -43,7 +43,7 @@ body {
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 
 a {
@@ -58,8 +58,8 @@ header, section, .container {
   color: var(--color-white);
   padding: 7% !important;
   
-  max-width: 100% !important;
-  overflow-x: hidden !important;
+  /* max-width: 100% !important;
+  overflow-x: hidden !important; */
 }
 
 article img[data-src] {
@@ -844,6 +844,9 @@ h34{
   .about-container .left-about p {
     padding-left: 0;
   }
+  .about-item{
+    overflow-x: hidden;
+  }
 
   .timeline {
     grid-template-columns: repeat(1, 1fr);
@@ -914,7 +917,7 @@ h34{
   .main-title h2 .bg-text {
     font-size: 2.3rem;
   }
-  #port-folio {
+  /* #port-folio {
     visibility: hidden;
     position: relative;
 }
@@ -1001,9 +1004,9 @@ h34{
   top: -100%;
   right: 90%;
   content: "Cont- -act";
+} */
 }
-}
-@media screen and (max-width: 667px) {
+/* @media screen and (max-width: 667px) {
   body {
       overflow-x: hidden !important;
   }
@@ -1011,7 +1014,7 @@ h34{
       max-width: 100% !important;
       overflow-x: hidden !important;
   }
-}
+} */
 @media screen and (max-width: 1432px) {
   .container {
     padding: 7rem 11rem;
