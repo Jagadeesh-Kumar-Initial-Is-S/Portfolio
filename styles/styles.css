@@ -735,7 +735,7 @@ h336{
   font-size: xx-small;
   color: var(--color-secondary);
   font-family: "Poppins", sans-serif;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 h36{
@@ -755,7 +755,7 @@ h34{
 }
 
 .bg-text {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 
