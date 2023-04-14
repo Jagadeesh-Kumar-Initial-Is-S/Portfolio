@@ -961,6 +961,11 @@ h34{
   h34, h35 {
     font-size: xx-small;
   }
+
+  #nome, .animate-charcter {
+    font-size:medium;
+  }
+
   /* #port-folio {
     visibility: hidden;
     position: relative;
